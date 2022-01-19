@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bloque",
+      "handler": "bloque.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bloque",
+      "handler": "bloque.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bloque",
+      "handler": "bloque.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
