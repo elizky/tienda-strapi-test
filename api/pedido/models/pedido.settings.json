@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedidos",
+  "info": {
+    "name": "Pedido"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "total": {
+      "type": "decimal",
+      "required": true,
+      "min": 1
+    },
+    "cliente": {
+      "type": "json",
+      "required": true
+    },
+    "productos": {
+      "type": "json",
+      "required": true
+    }
+  }
+}
